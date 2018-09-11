@@ -1,0 +1,106 @@
+//Microsoft App Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+BBVA                    ICON    DISCARDABLE     "BBVA.ICO"
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOG FIXED IMPURE  10, 25, 220, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Acerca de ATM BBVA"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "Copyright \251 2001-2003 Alvaro R. Medina G.",
+                    IDC_STATIC,43,78,145,10,SS_NOPREFIX | NOT WS_GROUP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,38,75,162,1
+    DEFPUSHBUTTON   "OK",IDOK,169,6,40,14
+    ICON            "BBVA",IDC_STATIC,10,30,18,20
+    LTEXT           "Puente entre Moxa SDLC y ASL Remote Watch Millenium",
+                    IDC_STATIC,43,30,152,18,SS_NOPREFIX | NOT WS_GROUP
+    LTEXT           "Desarrollado espec\355ficamente para el BBVA Banco Continental",
+                    IDC_STATIC,43,51,155,18,SS_NOPREFIX | NOT WS_GROUP
+    LTEXT           "ATM BBVA v1.0.4",IDC_STATIC,75,12,64,9,SS_NOPREFIX | 
+                    NOT WS_GROUP
+END
+
+IDD_KEY DIALOG DISCARDABLE  0, 0, 229, 50
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "ATM BBVA Key"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,171,6,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,171,23,50,14
+    LTEXT           "Key        :",IDC_TEXT1,5,11,39,10
+    LTEXT           "Password :",IDC_STATIC,2,30,37,10
+    LTEXT           "",IDC_KEY,52,11,110,9
+    EDITTEXT        IDC_ATM,50,28,41,13,ES_AUTOHSCROLL
+END
+
+#ifdef APSTUDIO_INVOKED
+//////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+0X00020000L TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+/////////////////////////////////////////////////////////////////////////////////////
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef APSTUDIO_INVOKED
+////////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
